@@ -25,7 +25,11 @@ public class GetPatientApiServiceImpl extends GetPatientApiService {
 	public Response getPatient(RequestPatientById body, SecurityContext securityContext) throws NotFoundException {
 		try {
 			Patient p = new Patient()
+<<<<<<< HEAD
 					.nom("TTTTT")
+=======
+					.nom("THIAO")
+>>>>>>> branch 'master' of https://github.com/Bono974/toto
 					.prenom("BRUNO")
 					.idPatient(body.getIdPatient());
 
