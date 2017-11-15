@@ -25,8 +25,8 @@ public class GetPatientApiServiceImpl extends GetPatientApiService {
 	public Response getPatient(RequestPatientById body, SecurityContext securityContext) throws NotFoundException {
 		try {
 			Patient p = new Patient()
-					.nom("nbvfg")
-					.prenom("kjhgfghjklkj")
+					.nom("TTTTT"
+					.prenom("BRUNO")
 					.idPatient(body.getIdPatient());
 
 			ObjectMapper om = new ObjectMapper();
