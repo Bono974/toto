@@ -20,6 +20,9 @@ public class AddPatientApiServiceImpl extends AddPatientApiService {
     @Override
     public Response addPatient(Patient body, SecurityContext securityContext) throws NotFoundException {
         // do some magic!
-        return Response.ok().entity(new ApiResponseMessage(ApiResponseMessage.OK, "magic!")).build();
+    	
+    	
+//    	body.get
+        return Response.ok().entity(new ApiResponseMessage(ApiResponseMessage.OK, "hello!")).build();
     }
 }
